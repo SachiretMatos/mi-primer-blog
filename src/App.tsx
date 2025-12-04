@@ -63,7 +63,7 @@ export default function App() {
       for (let x = 0; x < w; x++) {
         ctx.lineTo(x, h * 0.8 + Math.sin(x * 0.01 + Date.now() * 0.001) * 20);
       }
-      ctx.strokeStyle = "rgb(252, 0, 145)";
+      ctx.strokeStyle = "rgb(79, 107, 255)";
       ctx.lineWidth = 3;
       ctx.stroke();
 
@@ -76,7 +76,7 @@ export default function App() {
 
         ctx.beginPath();
         ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
-        ctx.fillStyle = "rgb(252, 0, 145)";
+        ctx.fillStyle = "rgb(79, 107, 255)";
         ctx.fill();
       });
 
